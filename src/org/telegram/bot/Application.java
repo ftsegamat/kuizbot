@@ -102,6 +102,7 @@ public class Application {
 		idsToNames.put(9508544, "Snake");
 		idsToNames.put(7639690, "Yarr");
 		idsToNames.put(8722587, "Rikel");
+		idsToNames.put(87376909, "SamadPower");
 
 		File file = new File("scoresFile");
 		FileInputStream f;
@@ -588,12 +589,12 @@ public class Application {
 	}
 
 	private static void workLoop() {
-		sendMessageChat(1256792, "Hello World !");
-		sendMessageChat(1256792,
+		sendMessageChat(-10886726, "Hello World !");
+		sendMessageChat(-10886726,
 				"My name is CrappyBot, and i am apparently a trivia bot !");
-		sendMessageChat(1256792,
+		sendMessageChat(-10886726,
 				"Type 'bot help' for a list of available commands");
-		sendMessageChat(1256792, "There are " + questions.size()
+		sendMessageChat(-10886726, "There are " + questions.size()
 				+ " questions on CrappyBot");
 
 		while (true) {
